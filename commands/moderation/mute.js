@@ -4,7 +4,7 @@ module.exports = {
   name: "mute",
   aliases: ["mutes", "muted"],
   category: "moderation",
-  description: "muet",
+  description: "mute",
   run: async (client, message, args) => {
     if (!message.member.hasPermission("MANAGE_ROLES")) {
       return message.channel.send("sorry you need permission to mute someone");
